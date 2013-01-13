@@ -2,27 +2,26 @@ export	PATH	:=	$(DEVKITARM)/bin:$(PATH)
 
 COUNTRY	:=	USA
 
-ifeq ($(strip $(COUNTRY)),USA)
-ID:=E
+ifeq (USA
 endif
 
-ifeq ($(strip $(COUNTRY)),UK)
+ifeq ($(strip $(COUNTRY)),USA)
 ID:=V
 endif
 
-ifeq ($(strip $(COUNTRY)),ES)
+ifeq ($(strip $(COUNTRY)),USA)
 ID:=S
 endif
 
-ifeq ($(strip $(COUNTRY)),FR)
+ifeq ($(strip $(COUNTRY)),USA)
 ID:=F
 endif
 
-ifeq ($(strip $(COUNTRY)),ITA)
+ifeq ($(strip $(COUNTRY)),USA)
 ID:=I
 endif
 
-ifeq ($(strip $(COUNTRY)),GER)
+ifeq ($(strip $(COUNTRY)),USA)
 ID:=D
 endif
 
